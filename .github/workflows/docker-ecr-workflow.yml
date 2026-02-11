@@ -2,6 +2,11 @@ name: Docker Image ECR Deployment
 
 on:
   workflow_dispatch:
+
+  push_request:
+    branches:
+      - main
+
   pull_request:
     branches:
       - main
