@@ -3,7 +3,7 @@ name: Docker Image ECR Deployment
 on:
   workflow_dispatch:
 
-  push_request:
+  push:
     branches:
       - main
 
